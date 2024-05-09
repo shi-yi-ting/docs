@@ -1,0 +1,45 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@mdit-vue/shared": "^1.0.0",
+    "@vuepress/client": "^2.0.0-rc.2",
+    "ant-design-vue": "^3.2.13",
+    "axios": "^1.5.1",
+    "consola": "^3.2.3",
+    "dayjs": "^1.11.10",
+    "echarts": "4.9.0",
+    "element-plus": "^2.5.6",
+    "is_js": "0.9.0",
+    "jquery": "3.5.1",
+    "md-editor-v3": "^4.8.1",
+    "ol": "7.5.1",
+    "qs": "^6.12.0",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.10.2",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.21.1",
+    "less": "^4.1.1",
+    "less-loader": "^7.0.2",
+    "mockjs": "^1.1.0",
+    "prismjs": "^1.13.0",
+    "sass": "^1.69.3",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-vue-components": "^0.25.2",
+    "vite-plugin-css": "^1.0.4",
+    "vite-plugin-style-import": "^2.0.0",
+    "vitepress": "1.0.0-rc.36"
+  }
+}
