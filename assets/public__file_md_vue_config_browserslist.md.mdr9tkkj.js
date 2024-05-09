@@ -1,0 +1,14 @@
+import{_ as s,c as a,o as e,U as n}from"./chunks/framework.zpeVKxWT.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"public/_file/md/vue/config/browserslist.md","filePath":"public/_file/md/vue/config/browserslist.md"}'),t={name:"public/_file/md/vue/config/browserslist.md"},p=n(`<h2 id="browserslist的作用-参考链接" tabindex="-1">browserslist的作用<a href="https://www.jianshu.com/p/d45a31c50711" target="_blank" rel="noreferrer">(参考链接)</a> <a class="header-anchor" href="#browserslist的作用-参考链接" aria-label="Permalink to &quot;browserslist的作用[(参考链接)](https://www.jianshu.com/p/d45a31c50711)&quot;">​</a></h2><p>browserslist配置能够分享目标浏览器和nodejs版本在不同的前端工具。这些工具能根据目标浏览器自动来进行配置, 单独是没用的。</p><p>browserslist 的数据都是来自Can I Use。想知道配置语句的查询结果可以使用<a href="https://browserl.ist/" target="_blank" rel="noreferrer">[online demo]</a>, 可以看到最新的各个浏览器版本Browserslist</p><p>补充: 在vue官方脚手架中，browserslist字段会被 @babel/preset-env 和 Autoprefixer 用来确定需要转译的 JavaScript 特性和需要添加的 CSS 浏览器前缀(<a href="https://github.com/browserslist/browserslist-example" target="_blank" rel="noreferrer">参考链接</a>)</p><h3 id="使用方式1" tabindex="-1">使用方式1 <a class="header-anchor" href="#使用方式1" aria-label="Permalink to &quot;使用方式1&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>(1) 配置放在package.json中</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>    &quot;browserslist&quot;: [</span></span>
+<span class="line"><span>        &quot;last 1 version&quot;,</span></span>
+<span class="line"><span>        &quot;&gt; 1%&quot;,</span></span>
+<span class="line"><span>        &quot;maintained node versions&quot;,</span></span>
+<span class="line"><span>        &quot;not dead&quot;</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>}</span></span></code></pre></div><h3 id="使用方式2" tabindex="-1">使用方式2 <a class="header-anchor" href="#使用方式2" aria-label="Permalink to &quot;使用方式2&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>(2) 配置放入到单独文件 .browserslistrc 中</span></span>
+<span class="line"><span>&gt; 1%  // 代表着全球超过1%人使用的浏览器</span></span>
+<span class="line"><span>last 2 // versions  表示所有浏览器兼容到最后两个版本</span></span>
+<span class="line"><span>not ie &lt;=8 // 表示IE浏览器版本大于8（实则用npx browserslist 跑出来不包含IE9</span></span>
+<span class="line"><span>safari &gt;=7 // 表示safari浏览器版本大于等于7</span></span>
+<span class="line"><span>not dead</span></span></code></pre></div>`,8),r=[p];function i(l,o,c,d,h,u){return e(),a("div",null,r)}const f=s(t,[["render",i]]);export{_ as __pageData,f as default};
