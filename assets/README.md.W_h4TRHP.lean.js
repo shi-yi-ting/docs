@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,U as r}from"./chunks/framework.zpeVKxWT.js";const p=JSON.parse('{"title":"docs","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),i={name:"README.md"},l=r("",13),o=[l];function s(h,n,c,d,x,_){return t(),a("div",null,o)}const f=e(i,[["render",s]]);export{p as __pageData,f as default};
