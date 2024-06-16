@@ -1,0 +1,1 @@
+import{s as o}from"./useConfigInject.EE0UmG98.js";function u(n,s,i,r){if(n&&n.addEventListener){var e=r;e===void 0&&o&&(s==="touchstart"||s==="touchmove"||s==="wheel")&&(e={passive:!1}),n.addEventListener(s,i,e)}return{remove:function(){n&&n.removeEventListener&&n.removeEventListener(s,i)}}}function v(n,s){return n?n.contains(s):!1}export{u as a,v as c};
