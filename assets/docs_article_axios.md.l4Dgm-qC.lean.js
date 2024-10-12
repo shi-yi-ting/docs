@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.FpOEJISx.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/article/axios.md","filePath":"docs/article/axios.md"}'),o={name:"docs/article/axios.md"};function s(c,r,i,n,d,p){return a(),t("div")}const m=e(o,[["render",s]]);export{l as __pageData,m as default};
